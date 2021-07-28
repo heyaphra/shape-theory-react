@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Canvas } from "../Canvas";
 import { Line, MerrickColorModel } from "./constants";
 import { distributePolar } from "./util";
+const { Note } = require("@tonaljs/tonal");
 
 class PitchCircle extends Component {
     selection = {};
@@ -37,7 +38,9 @@ class PitchCircle extends Component {
 
     trace = (noteSource) => {
         const nodes = noteSource.map((note, index) =>
-            this._points.find((p) => p.noteName === note)
+            this._points.find((p) => {
+                return p.noteName === note || p.noteName === Note.enharmonic(note)
+            })
         );
         const nextLines = nodes.map((p, i) => {
             return new Line(
