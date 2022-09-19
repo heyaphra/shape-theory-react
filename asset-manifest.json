@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.107b4f4a.css",
-    "main.js": "/static/js/main.72e55a76.js",
-    "static/js/496.463ced27.chunk.js": "/static/js/496.463ced27.chunk.js",
-    "index.html": "/index.html",
-    "main.107b4f4a.css.map": "/static/css/main.107b4f4a.css.map",
-    "main.72e55a76.js.map": "/static/js/main.72e55a76.js.map",
-    "496.463ced27.chunk.js.map": "/static/js/496.463ced27.chunk.js.map"
+    "main.css": "/shape-theory-react/static/css/main.107b4f4a.css",
+    "main.js": "/shape-theory-react/static/js/main.e1dd1bd8.js",
+    "static/js/496.463ced27.chunk.js": "/shape-theory-react/static/js/496.463ced27.chunk.js",
+    "index.html": "/shape-theory-react/index.html",
+    "main.107b4f4a.css.map": "/shape-theory-react/static/css/main.107b4f4a.css.map",
+    "main.e1dd1bd8.js.map": "/shape-theory-react/static/js/main.e1dd1bd8.js.map",
+    "496.463ced27.chunk.js.map": "/shape-theory-react/static/js/496.463ced27.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.107b4f4a.css",
-    "static/js/main.72e55a76.js"
+    "static/js/main.e1dd1bd8.js"
   ]
 }
